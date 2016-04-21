@@ -24,9 +24,9 @@ class HeartbeatRoot(BoxLayout):
     devicename = StringProperty("")
     deviceid = StringProperty("")
     client_token = StringProperty(
-        "6rgcw2zlr4ubpvcegjajqpnmehx5gp5zm1yigjzp1mgfvy6c")
+        "clienttoken")
     pushurl = StringProperty(
-        "https://1dvxtg49adq5f5jtzm2a04p2sr2pje3fem1x6gfu2cyhr30p.pushould.com")
+        "https://urlhere.pushould.com")
 
     def __init__(self, **kwargs):
         super(HeartbeatRoot, self).__init__(**kwargs)
